@@ -18,19 +18,18 @@ header, nav,main{
     margin: 0 auto;
 }
 
-
-
-header{margin-top: 10px;
+header{
+    margin-top: 10px;
     height: 50px;
     line-height: 50px;
     display: flex;
     align-items: center;
 }
+
 header>div{
     display: inline-block;
     height: 50px;
     line-height: 50px;
-    /* vertical-align: middle; */
 }
 
 .logo{
@@ -62,9 +61,11 @@ header>div{
     margin-left: 326px;
     margin-right: 64px;
 }
+
 .contact>i{
     margin-right: 4px;
 }
+
 .buy{
     float: right;
     margin: 0 auto;
@@ -80,31 +81,29 @@ header>div>i{
 header>div:nth-child(3)>i{
     font-size: 12px;
 }
-.contact{
-}
-
 
 .telephone>i{
-padding-bottom: 3px;
+    padding-bottom: 3px;
 }
 
 .buy{
     background-color:#009900;
-    /* height: 40px; */
     height: 50px;
     width: 96px;
     line-height: 50px;
     margin-right: 0px;
     font-size: 12px;
-text-align: center;
+    text-align: center;
 }
 
 .buy:hover{
     background-color: #2F4766;
 }
+
 .buy>span{
-color: white;
+    color: white;
 }
+
 .buy>i{
     color: white;
     font-size: 12.5px;
@@ -113,19 +112,18 @@ color: white;
 nav{
     border-top: 1px solid #4383af;
     border-bottom: 1px solid #4383af;
-height: 48px;
+    height: 48px;
 }
 
 nav>ul>li{
     display: inline-block;
-list-style-type: none;
-text-transform: capitalize;
-padding: 0 48px;
-height: 48px;
-line-height: 48px;
-text-align: center;
-font-size: 16px;
-
+    list-style-type: none;
+    text-transform: capitalize;
+    padding: 0 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 16px;
 }
 
 li:hover{
@@ -147,16 +145,20 @@ main{
     text-align: justify;
     margin-bottom: 30px;
 }
+
 main>div>h1{
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
+
 .first>img{
-padding-top: 18px;
-padding-bottom: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
+
 h1{
     font-size: 40px;
 }
+
 article{
     display: inline-block;
     float: left;
@@ -178,7 +180,6 @@ article>section{
     margin-bottom: 20px;
     margin-right: 20px;
     float: left;
-
 }
 
 .second{
@@ -199,8 +200,8 @@ article>section{
 }
 
 .second>section:first-child>.item-desc{
-letter-spacing: 0.07px;
-word-spacing: 0.2px;
+    letter-spacing: 0.07px;
+    word-spacing: 0.2px;
 }
 
 .second>section:nth-child(2)>.item-name{
@@ -267,23 +268,18 @@ button{
     letter-spacing: 0.01px;
 }
 
-
 footer{
     font-size: 12px;
     text-align: right;
     letter-spacing: 0.1px;
-
 }
 
 footer>div>i{
     color: red;
-padding-top: 11px;
+    padding-top: 11px;
 }
 
 a{
     text-decoration: none;
     color: #4383AF;
 }
-
-
-
