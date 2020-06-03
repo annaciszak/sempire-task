@@ -17,6 +17,9 @@ header, nav,main{
     width: 100%;
     margin: 0 auto;
 }
+
+
+
 header{margin-top: 10px;
     height: 50px;
     line-height: 50px;
@@ -38,7 +41,6 @@ header>div{
     font-size: 35px;
     margin-left: 30px;
     margin-top: 1px;
-
 }
 
 .logo>div{
@@ -54,7 +56,6 @@ header>div{
 .logo>div:last-child{
     background-color: white;
     padding-right:10px;
-
 }
 
 .contact{
@@ -137,12 +138,14 @@ main{
     box-sizing: border-box;
     padding-top: 25px;
     padding-left: 30px;
-
+    height: 728px;
+    border-bottom: 5px solid #4383af;
 }
 
 .first{
     width:400px;
     text-align: justify;
+    margin-bottom: 30px;
 }
 main>div>h1{
 padding-bottom: 20px;
@@ -156,11 +159,11 @@ h1{
 }
 article{
     display: inline-block;
+    float: left;
 }
 
 article:last-child{
-    /* float: right; */
-    width: 423px;
+    width: 450px;
 }
 
 article>section{
@@ -168,31 +171,56 @@ article>section{
     display: inline-block;
     font-size: 13px;
     width: 200px;
-    height: 283px;
+    height: 284px;
     padding: 10px;
     border: 1px solid #D2D2D2;
+    margin:0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+
 }
 
 .second{
-    padding-right: 10px;
-    margin-right:5px;
+    display: inline-block;
+    padding-left: 50px;
+    width: auto;
+    text-align: justify;
 }
 
-.second>section{
-    display: inline-block;
-    /* margin-left: 5px;
-    margin-right: 5px; */
-    margin-right: 8px;
-}
 .second>section>.item-name{
     text-transform: uppercase;
     color: #6c84b2;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    text-align: left;
+    letter-spacing: -0.17px;
+    word-spacing: 0.18px;
 }
-/* section{
-margin-right: 16px;} */
 
-.second>section>p{
-    text-align: justify;
+.second>section:first-child>.item-desc{
+letter-spacing: 0.07px;
+word-spacing: 0.2px;
+}
+
+.second>section:nth-child(2)>.item-name{
+    letter-spacing: -0.05px;
+    word-spacing: 1.4px;
+}
+
+.second>section:nth-child(2)>.item-desc{
+    letter-spacing: 0.2px;
+    word-spacing: -1.7px;
+}
+
+.second>section:nth-child(3)>.item-name{
+    letter-spacing: -0.08px;
+    word-spacing: 0.8px;
+}
+
+.second>section:nth-child(3)>.item-desc{
+    letter-spacing: -0.06px;
+    word-spacing: -0.6px;
 }
 
 section>div>span{
@@ -204,35 +232,58 @@ section>div>span{
     padding-right: 8px;
 }
 
-.second>section>div{
-
-}
-
 .shop{
     display: inline-block;
 }
 
-input{
-    display: inline-block;
-    width: 29px;
-    height: 23px;
-    text-align: center;
-    box-sizing: border-box;
-    border: 1px solid #e1e1e1;
-    margin-right: -3px;
+section>div>span{
+    margin-top:1px;
 }
 
+section>div{
+    padding-top: 10px;
+}
+
+input{
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #bdb9b9;
+    margin-right: -3px;
+    margin-left: 1px;
+}
 
 button{
     display: inline-block;
-    height: 23px;
+    height: 25px;
     width: 90px;
     margin-left: -4px;
     border: none;
     border-radius: 0px 5px 5px 0px;
     background-color: #009900;
     color: white;
+    letter-spacing: 0.01px;
+}
+
+
+footer{
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0.1px;
 
 }
+
+footer>div>i{
+    color: red;
+padding-top: 11px;
+}
+
+a{
+    text-decoration: none;
+    color: #4383AF;
+}
+
 
 
