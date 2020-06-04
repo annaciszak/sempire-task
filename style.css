@@ -33,10 +33,10 @@ header>div{
 }
 
 .logo{
-    border: 1px solid#ff881f;
+    border: 1px solid#FF881F;
     height: 39px;
     line-height: 39px;
-    background-color: #ff881f;
+    background-color: #FF881F;
     font-size: 35px;
     margin-left: 30px;
     margin-top: 1px;
@@ -72,7 +72,7 @@ header>div{
 }
 
 header>div>i{
-   color:#ff881f;
+   color:#FF881F;
    font-size: 16px;
    margin: 0 3px;
    padding-top: 3px;
@@ -83,7 +83,15 @@ header>div:nth-child(3)>i{
 }
 
 .telephone>i{
-    padding-bottom: 3px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+
+
+.phone>i{
+    display: inline-block;
+    font-size: 12px;
 }
 
 .buy{
@@ -101,17 +109,22 @@ header>div:nth-child(3)>i{
 }
 
 .buy>span{
+    display: inline-block;
     color: white;
+    padding-top:1px;
+    padding-left: 1px;
+    padding-right: 3px;
 }
 
 .buy>i{
     color: white;
     font-size: 12.5px;
+    margin-right: 4px;
 }
 
 nav{
-    border-top: 1px solid #4383af;
-    border-bottom: 1px solid #4383af;
+    border-top: 1px solid #4383AF;
+    border-bottom: 1px solid #4383AF;
     height: 48px;
 }
 
@@ -127,7 +140,7 @@ nav>ul>li{
 }
 
 li:hover{
-    background-color: #4383af;
+    background-color: #4383AF;
     border-bottom: 3px solid black;
     color: white;
 }
@@ -137,7 +150,7 @@ main{
     padding-top: 25px;
     padding-left: 30px;
     height: 728px;
-    border-bottom: 5px solid #4383af;
+    border-bottom: 5px solid #4383AF;
 }
 
 .first{
@@ -191,7 +204,7 @@ article>section{
 
 .second>section>.item-name{
     text-transform: uppercase;
-    color: #6c84b2;
+    color: #6C84B2;
     padding-top: 3px;
     padding-bottom: 1px;
     text-align: left;
@@ -251,7 +264,7 @@ input{
     height: 25px;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid #bdb9b9;
+    border: 1px solid #BDB9B9;
     margin-right: -3px;
     margin-left: 1px;
 }
